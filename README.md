@@ -8,7 +8,7 @@ Text, video and audio versions of **Load Image Batch From Dir (Inspire)** from [
 | **Load Video Batch From Dir** | `image/video` | mp4, mov, mkv, webm, avi, m4v, mpg, mpeg, wmv, flv, ogv (with the sound) |
 | **Load Audio Batch From Dir** | `audio` | wav, mp3, flac, ogg, opus, m4a, aac, wma, aiff, mka |
 
-> The video and audio loaders used to be separate repos ([comfyui-load-video-batch-from-dir](https://github.com/roycho87/comfyui-load-video-batch-from-dir), [comfyui-load-audio-batch-from-dir](https://github.com/roycho87/comfyui-load-audio-batch-from-dir)). They're all here now. If you installed those, remove them so the same nodes aren't loaded twice; your workflows keep working, since the node names haven't changed.
+> The video and audio loaders used to be separate repos. They're all here now. If you installed the old `comfyui-load-video-batch-from-dir` or `comfyui-load-audio-batch-from-dir`, remove them so the same nodes aren't loaded twice; your workflows keep working, since the node names haven't changed.
 
 ## Install
 Clone into `ComfyUI/custom_nodes/` and restart ComfyUI:
