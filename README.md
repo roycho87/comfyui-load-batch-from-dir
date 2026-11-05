@@ -15,7 +15,7 @@ Clone into `ComfyUI/custom_nodes/` and restart ComfyUI:
 
 ```
 cd ComfyUI/custom_nodes
-git clone https://github.com/roycho87/comfyui-load-text-batch-from-dir
+git clone https://github.com/roycho87/comfyui-load-batch-from-dir
 ```
 
 No extra packages are needed: video uses PyAV, ffmpeg or OpenCV and audio uses `torchaudio` (or `av`), whichever ComfyUI already has.
